@@ -275,7 +275,7 @@ body,
 a:hover,
 a:focus,
 a:visited {
-    color: #787878;
+    color: #FFFFFF;
 }
 
 h1,
@@ -294,7 +294,7 @@ h6 a,
 a.theme-btn.style-three, 
 .theme-btn.style-four,
 a.theme-btn.style-four {
-    color: #222222;
+    color: #white;
 }
 
 .theme-btn,
@@ -323,7 +323,7 @@ a.theme-btn.style-four:hover {
 }
 
 .hero-content h5 {
-    color: #545459;
+    color: #FFFFFF;
 }
 
 .service-item.style-two > i {
@@ -364,12 +364,12 @@ a.theme-btn.style-four {
 a.theme-btn,
 .scroll-top,
 .what-experct-content {
-    background-color: #fbaaa9;
+    background-color: #39A9A2;
 }
 
 .theme-btn:before,
 a.theme-btn:before {
-    background-color: #171928;
+    background-color: #FBB90E;
 }
 
 .theme-btn.style-two:before,

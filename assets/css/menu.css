@@ -21,7 +21,7 @@
 .header-inner {
     padding: 10px 0;
     position: relative;
-    background: white;
+    background: #0B0C0C;
 }
 
 .header-inner:after {
@@ -32,13 +32,13 @@
     height: 22px;
     width: 100%;
     z-index: -1;
-    background: #fbaaa9;
+    background: #FBB90E;
 }
 
 .main-header .header-upper {
     position: relative;
     z-index: 5;
-    background: #FFFFFF;
+    background: #0B0C0C;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -78,7 +78,7 @@
     position: relative;
     display: block;
     font-size: 14px;
-    color: #171928;
+    color: #fffff;
     padding: 2px 15px;
     border-radius: 13px;
     opacity: 1;
@@ -92,8 +92,8 @@
 .main-menu .navigation li > a:hover,
 .main-menu .navigation li.current > a,
 .main-menu .navigation li.current-menu-item > a {
-    color: #fbaaa9;
-    background: #fdeded;
+    color: Black;
+    background: #FBB90E;
 }
 
 .main-menu .navigation li li > a:hover,
