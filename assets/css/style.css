@@ -103,6 +103,7 @@ li {
 img {
     max-width: 100%;
     display: inline-block;
+    alignment-baseline: central;
 }
 
 .page-wrapper {
@@ -345,7 +346,7 @@ a.theme-btn.style-four:hover {
 a.theme-btn.style-three,
 .theme-btn.style-four,
 a.theme-btn.style-four {
-    background-color: #FFFFFF;
+    background-color: #0B0C0C;
 }
 
 .bg-one {
@@ -356,7 +357,7 @@ a.theme-btn.style-four {
 .services-section:after,
 .service-item.style-one > i,
 .style-one .pricing-content {
-    background-color: #fff6f6;
+    background-color: #0B0C0C;
 }
 
 .bg-three,
