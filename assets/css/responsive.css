@@ -9,11 +9,23 @@
 
 
 @media only screen and (max-width: 1500px) {
+
+    .hero-section {
+        background: url(file:///C:/Users/porot/Desktop/FADU/2021/DISE%C3%91O%203/TP2/Web%20HTML/gilkan-main/assets/images/hero/heromobile.png);
+    background-size: cover !important;
+    background-position: 75% 25%
+    }
+    
+
     .hero-section {
         min-height: 800px;
     }
     .hero-content h1 {
         font-size: 60px;
+    }
+
+    .hero-content img {
+        background: right center no-repeat;
     }
     
 }

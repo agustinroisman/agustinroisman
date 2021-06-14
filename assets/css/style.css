@@ -336,6 +336,35 @@ a.theme-btn.style-four:hover {
     color: #fbaaa9;
 }
 
+
+.service-item.style-one:hover img {
+    transition: transform .2s;
+    transform: scale(1.1);
+    
+}
+
+
+.service-item.style-two:hover img {
+    transition: transform .2s;
+    transform: scale(1.1);
+    
+}
+
+
+.service-item.style-three:hover img {
+    transition: transform .2s;
+    transform: scale(1.1);
+    
+}
+
+
+.service-item.style-four:hover img {
+    transition: transform .2s;
+    transform: scale(1.1);
+    
+}
+
+
 .style-two .price-circle h3 {
     color: #FAB80E;
 }
@@ -482,6 +511,7 @@ a.theme-btn.style-three:before {
 
 
 .pricing-section.rmb-70 {
+    background-image: url(file:///C:/Users/porot/Desktop/FADU/2021/DISE%C3%91O%203/TP2/Web%20HTML/gilkan-main/assets/images/pricing/Fondo1.png);
     background-color: #0B0B0B;
     padding-bottom: 120px;
 }
@@ -676,13 +706,13 @@ a.theme-btn.style-three:before {
 /****************************************************** */
 .hero-section {
     background: url('../images/hero/hero.png');
-    background-size: cover;
+    background-position: 75% 25%;
     position: relative;
     min-height: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position: center;
+
 }
 
 .hero-content {
@@ -710,6 +740,18 @@ a.theme-btn.style-three:before {
 }
 
 .hero-angle img {
+    animation: down-up 10s infinite linear;
+}
+
+
+.hero-angle2 {
+    position: all;
+    left: 0;
+    top: 50%;
+    transform: translate(-70%, -70%);
+}
+
+.hero-angle2 img {
     animation: down-up 10s infinite linear;
 }
 
@@ -826,9 +868,16 @@ a.theme-btn.style-three:before {
 /****************************************************** */
 /**************** 07. Services Section  *************** */
 /****************************************************** */
+
+.divisor {
+    padding-top: 50px;
+}
+
+
 .services-section {
     position: center;
     overflow: hidden;
+    padding-top: 60px;
 }
 
 .services-section .section-title {
@@ -1049,7 +1098,7 @@ a.theme-btn.style-three:before {
     transform: translateY(-50%);
 }
 
-.price-circle:after {
+/**.price-circle:after {
     position: absolute;
     content: '';
     height: calc(100% + 25px);
@@ -1059,7 +1108,7 @@ a.theme-btn.style-three:before {
     z-index: -1;
     border-radius: 50%;
     border: 1px dashed;
-}
+}**/
 
 .style-one .price-circle h3 {
     color: #D75354;
@@ -1198,6 +1247,11 @@ img.mfp-img {
 /****************************************************** */
 /****************** 12. Team Section  ***************** */
 /****************************************************** */
+
+.team-section {
+    background-image: url(file:///C:/Users/porot/Desktop/FADU/2021/DISE%C3%91O%203/TP2/Web%20HTML/gilkan-main/assets/images/team/fondoteam.png);
+}
+
 .team-item {
     margin-bottom: 30px;
 }
