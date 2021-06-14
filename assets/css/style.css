@@ -511,7 +511,7 @@ a.theme-btn.style-three:before {
 
 
 .pricing-section.rmb-70 {
-    background-image: url(file:///C:/Users/porot/Desktop/FADU/2021/DISE%C3%91O%203/TP2/Web%20HTML/gilkan-main/assets/images/pricing/Fondo1.png);
+    background-image: url(../images/pricing/Fondo1.png);
     background-color: #0B0B0B;
     padding-bottom: 120px;
 }
@@ -1249,7 +1249,7 @@ img.mfp-img {
 /****************************************************** */
 
 .team-section {
-    background-image: url(file:///C:/Users/porot/Desktop/FADU/2021/DISE%C3%91O%203/TP2/Web%20HTML/gilkan-main/assets/images/team/fondoteam.png);
+    background-image: url(../images/team/fondoteam.png);
 }
 
 .team-item {
