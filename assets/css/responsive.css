@@ -8,7 +8,7 @@
 
 
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1000px) {
 
     .hero-section {
         background: url(../images/hero/heromobile.png);
@@ -18,7 +18,7 @@
     
 
     .hero-section {
-        min-height: 800px;
+        min-height: 900px;
     }
     .hero-content h1 {
         font-size: 60px;

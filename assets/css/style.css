@@ -288,6 +288,7 @@ input[type="submit"]:focus {
 
 .divider {
     height: 12px;
+    width: 1000px center;
 }
 
 /****************************************************** */
@@ -343,6 +344,37 @@ a.theme-btn.style-four:hover {
     
 }
 
+
+.service-section-one {
+    background-color: #0b0b0b;
+    background-image: url(../images/services/fondodetalle.png);
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+
+
+.services-section-one h2 {
+    color: #39a9a2;
+}
+
+.sp-right-content.ml-40.rml-0 h2 {
+    color: #39a9a2;
+}
+
+
+.sp-right-content.ml-40.rml-0 h4 {
+    color: #39a9a2;
+}
+
+.listadetalle li:before {
+    content: url(../images/services/iconodetalle.png);
+    margin-right: 3px;
+    margin-top: 3px;
+}
+
+.listadetalle {
+    margin-top: -10px;
+}
 
 .service-item.style-two:hover img {
     transition: transform .2s;
@@ -454,7 +486,7 @@ a.theme-btn.style-four:hover {
 .price-circle,
 .theme-btn.style-four,
 a.theme-btn.style-four {
-    background-color: #0B0C0C;
+    background-color: #0B0B0B;
 }
 
 .bg-one {
@@ -465,7 +497,7 @@ a.theme-btn.style-four {
 .services-section:after,
 .service-item.style-one > i,
 .style-one {
-    background-color: #0B0C0C;
+    background-color: #0B0B0B;
 }
 
 
@@ -512,8 +544,20 @@ a.theme-btn.style-three:before {
 
 .pricing-section.rmb-70 {
     background-image: url(../images/pricing/Fondo1.png);
+    background-repeat: no-repeat;
     background-color: #0B0B0B;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
+}
+
+
+.fondoprecios2 {
+    background-image: url(../images/pricing/fondo2.png)!important;
+    background-repeat: no-repeat;
+}
+
+
+.margentop {
+    padding-top: 120px !important;
 }
 
 
@@ -584,7 +628,15 @@ a.theme-btn.style-three:before {
     background-color: #fffafa;
 }
 
-.divider,
+.divider {
+    background-color: #3db6a4 ;
+    align-items: center;
+}
+
+.divisor {
+    background-color: #0b0b0b;
+}
+
 .mission {
     background-color: #fff2f2;
 }
@@ -716,8 +768,8 @@ a.theme-btn.style-three:before {
 }
 
 .hero-content {
-    padding: 175px 0 100px;
-    max-width: 450px;
+    /**padding: 175px 0 100px;**/
+    max-width: 500px;
     position: relative;
     z-index: 2;
 }
@@ -877,7 +929,7 @@ a.theme-btn.style-three:before {
 .services-section {
     position: center;
     overflow: hidden;
-    padding-top: 60px;
+    padding-top: 160px;
 }
 
 .services-section .section-title {
@@ -945,13 +997,13 @@ a.theme-btn.style-three:before {
 
 
 .what-experct-content {
-    background-color: #D8D8D8;
+    background-color: #e6e6e6;
 }
 
 .what-experct-img {
     height: 100%;
     min-height: 400px;
-    background: url('../images/services/service-man.png') center/cover;
+    background: url('../images/services/service-man.png') right/cover;
 }
 
 .what-experct-content {
@@ -966,7 +1018,7 @@ a.theme-btn.style-three:before {
     z-index: 2;
 }
 
-.what-experct-content:after {
+/**.what-experct-content:after {
     background-color: #D8D8D8;
     content: '';
     position: absolute;
@@ -974,7 +1026,7 @@ a.theme-btn.style-three:before {
     width: 58%;
     right: 0;
     bottom: 0;
-}
+}**/
 
 .what-experct-content h3 {
     font-size: 32px;
@@ -1230,11 +1282,23 @@ a.theme-btn.style-three:before {
     width: 70px;
     text-align: center;
     line-height: 70px;
-    background: #FFFFFF;
     border-radius: 50%;
     color: #fbaaa9;
     font-size: 20px;
 }
+
+
+.instagramlink {
+        height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    color: #fbaaa9;
+    font-size: 20px;
+
+}
+
 
 .gallery-hover h4 {
     margin-top: 25px;
@@ -1437,6 +1501,47 @@ img.mfp-img {
     text-align: center;
     margin-top: -65px;
     margin-bottom: 65px;
+}
+
+
+.colorgris {
+    background-color: #e6e6e6 !important ;
+}
+
+.colornegro {
+    background-color: #0b0b0b !important ;
+}
+
+
+.colorverdefondo {
+    background-color: #3db6a4 !important;
+}
+
+
+.colorverdeoscuro {
+    background-color: #226b5f !important;
+}
+
+
+.colorblanco {
+    background-color: white !important;
+}
+
+
+.colorverde h4 {
+    color: #3db6a4 !important;
+}
+
+.colorverde h2 {
+    color: #3db6a4 !important;
+}
+
+
+.experienciasplatino h2 {
+    text-align: center;
+    margin-top: -65px;
+    margin-bottom: 65px;
+    color: #3db6a4;
 }
 
 
@@ -1661,6 +1766,18 @@ color: #D75354;
 /*contact form*/
 .contact-form-inner {
     background: #1A1A1B;
+    padding: 100px;
+    border-bottom: 10px solid;
+    border-color: #E1A011;
+    transform: translateY(250px);
+    margin-top: -180px;
+    position: relative;
+    z-index: 888;
+}
+
+
+.contact-form-inner2 {
+    background: #3db6a4;
     padding: 100px;
     border-bottom: 10px solid;
     border-color: #E1A011;

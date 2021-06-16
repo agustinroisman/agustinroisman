@@ -35,6 +35,23 @@
     background: #FBB90E;
 }
 
+.header-inner2 {
+    padding: 10px 0;
+    position: relative;
+    background: #0B0C0C;
+}
+
+.header-inner2:after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    height: 22px;
+    width: 100%;
+    z-index: -1;
+    background: #3db6a4;
+}
+
 .main-header .header-upper {
     position: relative;
     z-index: 5;
