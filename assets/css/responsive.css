@@ -8,24 +8,12 @@
 
 
 
-@media only screen and (max-width: 1000px) {
-
+@media only screen and (max-width: 1500px) {
     .hero-section {
-        background: url(../images/hero/heromobile.png);
-    background-size: cover !important;
-    background-position: 75% 25%
-    }
-    
-
-    .hero-section {
-        min-height: 900px;
+        min-height: 800px;
     }
     .hero-content h1 {
         font-size: 60px;
-    }
-
-    .hero-content img {
-        background: right center no-repeat;
     }
     
 }
@@ -75,6 +63,14 @@
 
 
 @media only screen and (max-width: 991px) {
+
+        .hero-section {
+        background: url(../images/hero/heromobile.png);
+    background-size: cover !important;
+    background-position: 75% 25%
+    }
+
+
     .section-title {
         margin-bottom: 55px;
     }
@@ -121,7 +117,21 @@
         display: inline-block;
     }
 
+    .pricecol {
+        width: auto;
+        margin-top: 20px;
+        align-content: center;
+    }
+
 }
+
+    .col-sm-4 {
+
+    width: 0%;
+
+    }
+
+    
 
 
 @media only screen and (max-width: 767px) {
@@ -170,6 +180,18 @@
     }
     .contact-form-inner {
         padding: 100px 50px;
+    }
+
+        .service-section-one {
+        background-size: 300%;
+    }
+
+    .planes {
+        background-size: 300%;
+    }
+
+    .planes2 {
+        background-size: 300%;
     }
     
 }
@@ -281,6 +303,8 @@
         width: 50px;
         line-height: 50px;
     }
+
+
     
 }
 

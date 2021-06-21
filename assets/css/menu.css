@@ -21,7 +21,7 @@
 .header-inner {
     padding: 10px 0;
     position: relative;
-    background: #0B0C0C;
+    background: #0b0b0b;
 }
 
 .header-inner:after {
@@ -32,8 +32,22 @@
     height: 22px;
     width: 100%;
     z-index: -1;
-    background: #FBB90E;
+    background: #f9b70e;
 }
+
+.main-header .header-upper {
+    position: relative;
+    z-index: 5;
+    background: #0b0b0b;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.main-header .logo {
+    position: relative;
+    z-index: 9;
+}
+
 
 .header-inner2 {
     padding: 10px 0;
@@ -52,18 +66,6 @@
     background: #3db6a4;
 }
 
-.main-header .header-upper {
-    position: relative;
-    z-index: 5;
-    background: #0B0C0C;
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
-}
-
-.main-header .logo {
-    position: relative;
-    z-index: 9;
-}
 
 /** Header Main Menu */
 
@@ -95,7 +97,7 @@
     position: relative;
     display: block;
     font-size: 14px;
-    color: #fffff;
+    color: white;
     padding: 2px 15px;
     border-radius: 13px;
     opacity: 1;
@@ -109,8 +111,7 @@
 .main-menu .navigation li > a:hover,
 .main-menu .navigation li.current > a,
 .main-menu .navigation li.current-menu-item > a {
-    color: Black;
-    background: #FBB90E;
+    color: #f9b70e;
 }
 
 .main-menu .navigation li li > a:hover,
@@ -195,7 +196,7 @@
 }
 
 .main-menu .navbar-header .navbar-toggle .icon-bar {
-    background: #3DB7A5;
+    background: #3db6a4;
     height: 2px;
     width: 30px;
     display: block;
