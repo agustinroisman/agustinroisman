@@ -75,7 +75,7 @@
         margin-bottom: 55px;
     }
     .what-experct-img {
-        height: auto;
+         background-size: cover;
     }
     .testimonial-image {
         margin-bottom: 50px;
@@ -130,6 +130,8 @@
     width: 0%;
 
     }
+
+
 
     
 
@@ -244,6 +246,14 @@
     .info-content span {
         font-size: 18px;
     }
+
+    .what-experct-img {
+        background-position: center;
+    }
+
+    .planes2 .section-title {
+        margin-bottom: -60px;
+    }
     
 }
 
@@ -302,6 +312,10 @@
         height: 50px;
         width: 50px;
         line-height: 50px;
+    }
+
+    .planes2 .section-title {
+        margin-bottom: -60px;
     }
 
 
