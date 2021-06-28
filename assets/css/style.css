@@ -1742,6 +1742,7 @@ img.mfp-img {
 
 .contacto {
     background-color: #D8D8D8;
+    background-image: url(../images/team/fondoteam.png);
     padding-bottom: 360px;
     padding-top: 100px;
 }
