@@ -2,6 +2,10 @@
     .about-images {
         margin-left: auto;
     }
+
+        .hero-section {
+        min-height: 800px;
+    }
     
 }
 
@@ -9,9 +13,7 @@
 
 
 @media only screen and (max-width: 1500px) {
-    .hero-section {
-        min-height: 800px;
-    }
+
     .hero-content h1 {
         font-size: 60px;
     }
@@ -29,6 +31,10 @@
 
 
 @media only screen and (max-width: 1199px) {
+
+       .hero-content {
+        max-width: 450px;
+    }
     .testimonial-content {
         margin-left: 0;
     }
@@ -70,6 +76,10 @@
     background-position: 75% 25%
     }
 
+    .hero-content {
+        max-width: 450px;
+    }
+
 
     .planes .section-title {
         margin-bottom: -25px;
@@ -103,6 +113,8 @@
     .owl-carousel.team-carousel .owl-nav button {
         height: 55px;
         width: 55px;
+        margin-left: 10px;
+        margin-right: 60px;
         font-size: 20px;
     }
     .client-wrap {

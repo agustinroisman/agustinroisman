@@ -94,15 +94,14 @@
         if ($('.testimonial-wrap').length) {
             $('.testimonial-wrap').owlCarousel({
                 loop:true,
-                margin:0,
-                nav:false,
+                margin:30,
+                dots:false,
+                nav:true,
                 active: true,
                 smartSpeed: 1000,
-                mouseDrag: false,
-                touchDrag: false,
-                autoplay: false,
-                animateOut: 'fadeOut',
-                animateIn: 'fadeIn',
+                autoplay: 10000,
+                /*animateOut: 'fadeOut',
+                animateIn: 'fadeIn',*/
                 responsive:{
                     0:{
                         items:1
