@@ -44,7 +44,7 @@ html {
 }
 
 body {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 28px;
     font-family: 'Roboto', sans-serif;
@@ -316,6 +316,15 @@ a.theme-btn.style-four {
 
 
 .colorverde h3 {
+    color: #3db6a4 !important;
+}
+
+.colorverde h4 {
+    color: #3db6a4 !important;
+}
+
+
+.tituloverde h2 {
     color: #3db6a4 !important;
 }
 
@@ -850,10 +859,6 @@ a.theme-btn.style-three:before,
     padding-bottom: 10px;
 }
 
-.services-section2 .service-item {
-    border-bottom: 3px solid;
-    border-color: #f9b70e;
-}
 
 .sp-right-content.ml-40.rml-0 h2 {
     color: #39a9a2;
@@ -865,10 +870,12 @@ a.theme-btn.style-three:before,
 }
 
 .sp-right-content.ml-40.rml-0 p {
+    font-size: 17px;
     color: #e6e6e6;
 }
 
 .sp-right-content.ml-40.rml-0 li {
+    font-size: 17px3;
     color: #e6e6e6;
 }
 
@@ -885,6 +892,7 @@ a.theme-btn.style-three:before,
 }
 
 .services-section2 {
+    background-color: #0b0b0b;
     position: relative;
     overflow: hidden;
     padding-top: 130px;
@@ -1206,7 +1214,7 @@ padding-bottom: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #0b0b0b;
-    padding-top: 130px;
+    padding-top: 160px;
     padding-bottom: 130px;
 
 }
@@ -1484,16 +1492,13 @@ img.mfp-img {
 .team-item img {
     border: 0;
     transition: 0.5s;
-    margin-bottom: 35px;
+    margin-bottom: 0px;
 }
 
 .team-item img:hover {
-    padding: 5px;
-    transition: 0.5s;
-    border: 5px solid #fbaaa9;
 }
 
-.owl-carousel.team-carousel .owl-nav {
+/* .owl-carousel.team-carousel .owl-nav {
     text-align: center;
     margin-top: 65px;
 }
@@ -1532,7 +1537,7 @@ img.mfp-img {
 
 .owl-carousel.team-carousel .owl-nav button:hover {
     color: #FFFFFF;
-    background-color: #E1A011;
+    background-color: #E1A011; */
 }
 
 /****************************************************** */
@@ -1732,7 +1737,7 @@ img.mfp-img {
 
 
 
-.owl-carousel.team-carousel .owl-nav {
+/* .owl-carousel.team-carousel .owl-nav {
     text-align: center;
     margin-top: 65px;
 }
@@ -1760,7 +1765,7 @@ img.mfp-img {
     background-color: #fff2f2;
 }
 
-.owl-carousel.team-carousel.style-two .owl-nav button {
+.team-carousel.owl-carousel.style-two {
     background-color: #3DB7A5;
 }
 
@@ -1771,34 +1776,42 @@ img.mfp-img {
 .owl-carousel.team-carousel .owl-nav button:hover {
     color: #FFFFFF;
     background-color: #E1A011;
-}
+} */
 
 
 .owl-prev {
+    font-size: 80px !important;
     width: 15px;
     height: 100px;
     position: absolute;
     top: 40%;
-    margin-left: -50px;
+    margin-left: -80px;
     display: block !important;
     border:0px solid black;
-    color: #e6e6e6 !important;
+    color: #e6e6e6;
 }
 
 .owl-next {
+    font-size: 80px !important;
     width: 15px;
     height: 100px;
     position: absolute;
     top: 40%;
-    right: -50px;
+    right: -80px;
     display: block !important;
     border:0px solid black;
-    color: #e6e6e6 !important;
+    color: #e6e6e6;
 }
 .owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
 
+.owl-carousel.team-carousel .owl-nav button.owl-prev {
+    color: #0b0b0b;
 
+}
 
+.owl-carousel.team-carousel .owl-nav button.owl-next {
+    color: #0b0b0b;
+}
 
 /****************************************************** */
 /***************** 15. Client Section  **************** */

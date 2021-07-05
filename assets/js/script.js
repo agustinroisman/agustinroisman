@@ -70,7 +70,6 @@
                 active: true,
                 smartSpeed: 1000,
                 autoplay: 5000,
-                navText: [ '<span class="flaticon-left-arrow-1"></span>', '<span class="flaticon-right-arrow-1"></span>' ],
                 responsive:{
                     0:{
                         items:1
@@ -81,9 +80,7 @@
                     992:{
                         items:3
                     },
-                    1200:{
-                        items:4
-                    }
+                    
                 }
             });         
         }

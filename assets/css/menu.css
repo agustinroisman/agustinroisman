@@ -225,6 +225,11 @@
     .header-inner {
         padding: 20px 0;
     }
+
+        .header-inner2 {
+        padding: 20px 0;
+    }
+
     .main-header .logo-outer {
         position: absolute;
         top: 12px;
